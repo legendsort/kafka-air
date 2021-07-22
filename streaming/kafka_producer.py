@@ -8,7 +8,7 @@ producer = KafkaProducer(bootstrap_servers=bootstrap_servers)
 reader = csv.DictReader(open("/Users/mehmeteraysurmeli/PycharmProjects/Django-/dataeng/mediadata.csv"))
 for row in reader:
     print(row)
-    msg = f'Kontext kafka msg: { row }'
+    msg = f'Context kafka msg: { row }'
     future = producer.send(topic, msg.encode('utf-8'))
     print(f'Sending msg: {msg}')
     result = future.get(timeout=60)
