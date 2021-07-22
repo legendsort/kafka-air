@@ -1,4 +1,5 @@
 # Django-Kafka
+## Getting dataset from UI with django, then streaming and processing.
 ## How to run?
 ## pip install -r requirements.txt
 ## python manage.py makemigrations
