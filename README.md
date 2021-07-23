@@ -1,4 +1,4 @@
-# Django-Kafka
+# Django-Apache Kafka-Apache Airflow
 ## Getting dataset from UI with django, then streaming and processing.
 ## How to run?
 ## pip install -r requirements.txt
